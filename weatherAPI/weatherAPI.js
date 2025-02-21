@@ -36,7 +36,7 @@ function checkWeather(data, city) {
                 <p class='text-gray-500'>${data.location.localtime}, ${data.location.country}</p>
                 <div class='mt-5 d-flex justify-content-between align-items-center mx-5 pb-4'>
                     <h2 class='text-4xl md:text-7xl lg:text-8xl'>${data.current.temp_c}°C</h2>
-                    <img width="160px" src="${data.current.condition.icon}" alt='weatherImg' />
+                    <img width="160px" src="https://${data.current.condition.icon}" alt='weatherImg' />
                 </div>
                 <h4>${data.current.condition.text}</h4>
             </div>
