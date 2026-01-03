@@ -1,0 +1,48 @@
+/* Page background with black theme image */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("https://www.shutterstock.com/image-illustration/pencil-checking-off-golden-todo-600nw-2171134529.jpg"); /* replace with your image path */
+    background-size: cover;       /* scale image to cover entire page */
+    background-position: center;  /* center the image */
+    background-attachment: fixed;
+    background-repeat: no-repeat; /* no tiling */
+    color: white;                 /* default text color for contrast */
+}
+
+/* Title styling */
+#title {
+    text-align: center;
+    font-weight: bold;
+    margin: 2rem;
+    color: burlywood;
+}
+
+/* Input + button form */
+#form {
+    text-align: center;
+    margin: 2rem;
+}
+
+#input {
+    width: 70%;
+    height: 2.5rem;
+    font-size: large;
+    margin: 0.5rem;
+}
+
+/* Save button */
+#save {
+    font-size: large;
+}
+
+/* Task boxes */
+#tasks div {
+    background-color: white;      /* white box */
+    color: black;                 /* black text inside */
+    border-radius: 8px;           /* rounded corners */
+    padding: 10px;
+    margin: 1rem auto;
+    width: 70%;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3); /* subtle shadow */
+}
